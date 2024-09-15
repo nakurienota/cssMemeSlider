@@ -1,0 +1,64 @@
+#meme-container {
+   margin: auto;
+   width: 100%;
+   height: 100%;
+   border: 2px solid salmon; 
+}
+
+#meme-slider {
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid greenyellow; 
+}
+
+#meme-img{
+    border: 2px solid red; 
+}
+
+#meme-sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid rgb(4, 0, 255); 
+}
+
+#meme-text {
+    margin: 10px;
+    border: 2px solid rgb(255, 0, 128); 
+}
+
+#meme-buttons{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 128); 
+}
+
+#meme-buttons > button {
+    margin: 3px;
+}
+
+.switch-slider{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(6, 142, 221);
+}
+
+.switch-slider:hover{
+    border: 2px solid rgb(236, 91, 8);
+}
+
+.slider-unchecked:hover{
+    background-color: rgb(236, 91, 8);
+    border: 2px solid rgb(236, 91, 8);
+}
+
+.slider-unchecked {
+    background-color: rgb(6, 142, 221);
+}
+
