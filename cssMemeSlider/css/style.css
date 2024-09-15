@@ -59,4 +59,17 @@
         width: 15.5em;
         height: 18.5em;
     }
+
+    #meme-sign {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #meme-text {
+        margin: auto;
+    }
+
+    #meme-buttons{
+        margin: auto;
+    }
 }
