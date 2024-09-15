@@ -1,75 +1,75 @@
 #meme-container {
-   margin: auto;
-   width: 100%;
-   height: 100%;
+  margin: auto;
+  width: 100%;
+  height: 100%;
 }
 
 #meme-slider {
-    margin: 2em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  margin: 2em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #meme-img > img {
-    width: 31em;
-    height: 37em;
+  width: 31em;
+  height: 37em;
 }
 
-#meme-sign{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+#meme-sign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 #meme-text {
-    margin: 10px;
+  margin: 10px;
 }
 
-#meme-buttons{
-    margin: 10px;
-    display: flex;
-    align-items: center;
+#meme-buttons {
+  margin: 10px;
+  display: flex;
+  align-items: center;
 }
 
 #meme-buttons > button {
-    margin: 0.3em
+  margin: 0.3em;
 }
 
-.switch-slider{
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    border: 2px solid rgb(6, 142, 221);
+.switch-slider {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 2px solid rgb(6, 142, 221);
 }
 
-.slider-unchecked:hover{
-    background-color: rgb(236, 91, 8);
-    border: 2px solid rgb(236, 91, 8);
+.slider-unchecked:hover {
+  background-color: rgb(236, 91, 8);
+  border: 2px solid rgb(236, 91, 8);
 }
 
 .slider-unchecked {
-    background-color: rgb(6, 142, 221);
+  background-color: rgb(6, 142, 221);
 }
 
 @media (min-width: 320px) and (max-width: 499.98px) {
-    #meme-img > img{
-        width: 15.5em;
-        height: 18.5em;
-    }
+  #meme-img > img {
+    width: 15.5em;
+    height: 18.5em;
+  }
 
-    #meme-sign {
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
+  #meme-sign {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
 
-    #meme-text {
-        margin: auto;
-    }
+  #meme-text {
+    margin: auto;
+  }
 
-    #meme-buttons{
-        margin: auto;
-    }
+  #meme-buttons {
+    margin: auto;
+  }
 }
