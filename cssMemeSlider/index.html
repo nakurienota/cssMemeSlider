@@ -10,26 +10,48 @@
 </head>
 
 <body>
+  <div class="meme-container">
+    <div class="meme-slider">
+      <input type="radio" name="r" id="cleancode" checked />
+      <input type="radio" name="r" id="bagfix" />
+      <input type="radio" name="r" id="deadline" />
+      <input type="radio" name="r" id="gitguru" />
 
-  <div id="meme-container">
-    <div id="meme-slider">
-      <div id="meme-img">
-          <img src="img/cleancode.jpg" alt="">
-      </div>
-      <div id="meme-sign">
-        <div id="meme-text">
-          <p>Cleancode mem</p>
+      <div class="slide first">
+        <img src="img/cleancode.jpg" alt="" />
+        <div class="meme-text-wrapper">
+          <p class="meme-text">Cleancode text</p>
         </div>
-        <div id="meme-buttons">
-          <button class="switch-slider slider-checked" id="first"></button>
-          <button class="switch-slider slider-unchecked" id="second"></button>
-          <button class="switch-slider slider-unchecked" id="third"></button>
-          <button class="switch-slider slider-unchecked" id="fourth"></button>
+      </div>
+
+      <div class="slide">
+        <img src="img/bag_fix.jpeg" alt="" />
+        <div class="meme-text-wrapper">
+          <p class="meme-text">Bagfix text</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="img/deadline.jpeg" alt="" />
+        <div class="meme-text-wrapper">
+          <p class="meme-text">Deadline text</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="img/gitguru.jpg" alt="" />
+        <div class="meme-text-wrapper">
+          <p class="meme-text">Gitguru text</p>
         </div>
       </div>
     </div>
+    <div class="switchers">
+      <label class="switch-slider" for="cleancode"></label>
+      <label class="switch-slider" for="bagfix"></label>
+      <label class="switch-slider" for="deadline"></label>
+      <label class="switch-slider" for="gitguru"></label>
+    </div>
   </div>
-  <script src="js/script.js"></script>
 </body>
 
 </html>
