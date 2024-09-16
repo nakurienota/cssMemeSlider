@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.meme-container {
+  margin: auto;
+  width: 100%;
+  max-width: 31em;
+  height: auto;
+  overflow: hidden;
+}
+
+.meme-slider {
+  width: 400%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.meme-slider input {
+  display: none;
+}
+
+.slide > img {
+  width: 31em;
+  height: 37em;
+}
+
+.slide {
+  width: 25%;
+  transition: all 0.5s ease;
+}
+
+.switch-slider {
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0.3em;
+  margin: 6px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  border: 2px solid rgb(6, 142, 221);
+}
+
+.switch-slider:hover {
+  background-color: aqua;
+  border-color: aqua;
+}
+
+#cleancode:checked ~ .first {
+  margin-left: 0%;
+}
+
+#bagfix:checked ~ .first {
+  margin-left: -25%;
+}
+
+#deadline:checked ~ .first {
+  margin-left: -50%;
+}
+
+#gitguru:checked ~ .first {
+  margin-left: -75%;
+}
+
+.switchers {
+  bottom: 120px;
+  position: sticky;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.meme-text {
+  margin-top: 20px;
+  display: flex;
+  font-size: 20px;
+  font-weight: normal;
+  color: #1f0101;
+}
+
+@media (max-width: 500px) {
+
+  .switchers {
+    position: initial;
+    justify-content: center;
+  }
+
+  .slide > img {
+    width: 15.5em;
+    height: 18.5em;
+  }
+}
